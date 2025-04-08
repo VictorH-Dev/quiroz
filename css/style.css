@@ -8111,7 +8111,7 @@ h1, h2, h3, h4, h5,
       color: #fff; }
       .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover:before {
         visibility: visible;
-        background-color: #43B5B6;
+        background-color: #2d3e50;
         -webkit-transform: scaleX(1);
         -ms-transform: scaleX(1);
         transform: scaleX(1); }
@@ -8256,8 +8256,8 @@ h1, h2, h3, h4, h5,
     background: -webkit-gradient(left bottom, right top, color-stop(0%, #01d28c), color-stop(100%, #6d5ce7));
     background: -webkit-linear-gradient(45deg, #01d28c 0%, #6d5ce7 100%);
     background: -o-linear-gradient(45deg, #01d28c 0%, #6d5ce7 100%);
-    background: -ms-linear-gradient(45deg, #01d28c 0%, #6d5ce7 100%);
-    background: linear-gradient(45deg, #01d28c 0%, #6d5ce7 100%);
+    background: -ms-linear-gradient(45deg, #01d28c 00%, #6d5ce7 100%);
+    background: linear-gradient(45deg, #2d3e50 0%, #ffffff 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#01d28c', endColorstr='#6d5ce7', GradientType=1 ); }
   .hero-wrap.hero-wrap-2 {
     height: 400px; }
@@ -8543,7 +8543,7 @@ h1, h2, h3, h4, h5,
   background: #f8f9fd !important; }
 
 .bg-secondary {
-  background: #43B5B6 !important; }
+  background: #2d3e50 !important; }
 
 .bg-primary {
   background: #0C1A27 !important; }
@@ -8593,20 +8593,20 @@ h1, h2, h3, h4, h5,
         background: #fff;
         color: #000000; }
   .btn.btn-secondary {
-    background: #43B5B6;
-    border: 1px solid #43B5B6;
+    background: #2d3e50;
+    border: 1px solid #2d3e50;
     color: #fff; }
     .btn.btn-secondary:hover {
-      border: 1px solid #43B5B6;
+      border: 1px solid #2d3e50;
       background: transparent;
-      color: #43B5B6; }
+      color: #2d3e50; }
     .btn.btn-secondary.btn-outline-secondary {
-      border: 1px solid #43B5B6;
+      border: 1px solid #2d3e50;
       background: transparent;
-      color: #43B5B6; }
+      color: #2d3e50; }
       .btn.btn-secondary.btn-outline-secondary:hover {
         border: 1px solid transparent;
-        background: #43B5B6;
+        background: #2d3e50;
         color: #fff; }
 
 .img-video {
@@ -8709,7 +8709,7 @@ h1, h2, h3, h4, h5,
       right: 5px;
       content: '';
       height: 5px;
-      background: #43B5B6;
+      background: #2d3e50;
       border-radius: 0 0 3px 3px;
       -moz-transition: all 0.3s ease;
       -o-transition: all 0.3s ease;
@@ -8718,7 +8718,7 @@ h1, h2, h3, h4, h5,
       transition: all 0.3s ease; }
     .services .icon span {
       font-size: 40px;
-      color: #43B5B6; }
+      color: #2d3e50; }
   .services .media-body h3 {
     font-weight: 700;
     font-size: 18px;
@@ -8730,8 +8730,8 @@ h1, h2, h3, h4, h5,
     color: #000000;
     border-bottom: 2px solid #e6e6e6; }
     .services .btn-custom:hover {
-      color: #43B5B6;
-      border-color: #43B5B6; }
+      color: #2d3e50;
+      border-color: #2d3e50; }
 
 #section-counter {
   position: relative;
@@ -8844,7 +8844,7 @@ h1, h2, h3, h4, h5,
         color: #fff;
         width: 30px;
         height: 30px;
-        background: #43B5B6;
+        background: #2d3e50;
         -webkit-border-radius: 50%;
         -moz-border-radius: 50%;
         -ms-border-radius: 50%;
@@ -8958,7 +8958,7 @@ h1, h2, h3, h4, h5,
     right: 0;
     bottom: 0;
     content: '';
-    background: #43B5B6;
+    background: #2d3e50;
     opacity: 0;
     z-index: 0;
     -moz-transition: all 0.3s ease;
@@ -9099,11 +9099,11 @@ textarea.form-control {
     .block-7 .price sup {
       font-size: 16px;
       top: -1em;
-      color: #43B5B6; }
+      color: #2d3e50; }
     .block-7 .price .number {
       font-size: 34px;
       font-weight: 500;
-      color: #43B5B6; }
+      color: #2d3e50; }
   .block-7 .excerpt {
     color: #000000;
     text-transform: uppercase;
@@ -9327,9 +9327,9 @@ textarea.form-control {
       .testimony-section .owl-dots .owl-dot:after {
         border-color: rgba(255, 255, 255, 0.2); }
       .testimony-section .owl-dots .owl-dot.active {
-        background: #43B5B6; }
+        background: #2d3e50; }
         .testimony-section .owl-dots .owl-dot.active:after {
-          border-color: #43B5B6; }
+          border-color: #2d3e50; }
 
 .testimony-wrap {
   display: block;
@@ -9422,7 +9422,7 @@ textarea.form-control {
         color: #b3b3b3; }
       .blog-entry .text .desc span:last-child {
         font-weight: 500;
-        color: #43B5B6; }
+        color: #2d3e50; }
   .blog-entry .text .heading {
     font-size: 18px;
     margin-bottom: 16px;

@@ -79,15 +79,16 @@
 	        <span class="fa fa-bars"></span> Menu
 	      </button>
 				<div class="order-lg-last">
-					<p><a href="https://form.jotform.com/240910157670655" class="btn btn-primary">Marque uma consulta</a></p>
+					<p><a href="https://www.simplesagenda.com.br/agendamento_m.php?id=5690f30518aed20c15d258d348f50aa2" class="btn btn-primary">Marque uma consulta</a></p>
         </div>
 	      <div class="collapse navbar-collapse" id="ftco-nav">
-	        <ul class="navbar-nav mr-auto">
+      <ul class="navbar-nav mr-auto">
 	        	<li class="nav-item"><a href="index.html" class="nav-link">Inicio</a></li>
 	        	<li class="nav-item"><a href="about.html" class="nav-link">Sobre</a></li>
 	        	<li class="nav-item"><a href="services.html" class="nav-link">Serviços</a></li>
 	        	<li class="nav-item"><a href="gallery.html" class="nav-link">Fotos</a></li>
-	          <li class="nav-item active"><a href="contact.html" class="nav-link">Contato</a></li>
+				<li class="nav-item"><a href="Team.html" class="nav-link">Equipe</a></li>
+	          <li class="nav-item contato"><a href="contact.html" class="nav-link">Contato</a></li>
 	        </ul>
 	      </div>
 	    </div>
@@ -180,7 +181,35 @@
 	<!-- loader -->
 	<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
   
-  
+    <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+<script src='https://cdn.jotfor.ms/s/umd/latest/for-embedded-agent.js'></script>
+
+<script>
+  window.addEventListener("DOMContentLoaded", function() {
+    window.AgentInitializer.init({
+      agentRenderURL: "https://agent.jotform.com/019616598b4874008fbd9ec98d1e8f9bbd60",
+      rootId: "JotformAgent-019616598b4874008fbd9ec98d1e8f9bbd60",
+      formID: "019616598b4874008fbd9ec98d1e8f9bbd60",
+      queryParams: ["skipWelcome=1", "maximizable=1"],
+      domain: "https://www.jotform.com",
+      isDraggable: false,
+      background: "linear-gradient(180deg, #0F53B4 0%, #0F53B4 100%)",
+      buttonBackgroundColor: "#246506",
+      buttonIconColor: "#FFFFFF",
+      variant: false,
+      customizations: {
+        "greeting": "Yes",
+        "greetingMessage": "Olá! Como posso ajudá-lo?",
+        "openByDefault": "No",
+        "pulse": "Yes",
+        "position": "right",
+        "autoOpenChatIn": "0"
+      },
+      isVoice: undefined
+    });
+  });
+</script>
+
 	<script src="js/jquery.min.js"></script>
 	<script src="js/jquery-migrate-3.0.1.min.js"></script>
 	<script src="js/popper.min.js"></script>
