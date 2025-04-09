@@ -624,7 +624,7 @@ function updateBackgroundImage() {
     sliderItems.forEach((item, index) => {
         if (screenWidth <= 768) {
             // Alterna entre duas imagens para celular
-            let mobileImages = ["images/donos-quiroz.jpeg", "images/cel1.png"];
+            let mobileImages = ["images/cel1.png", "images/donos-quiroz.jpeg"];
             item.style.backgroundImage = `url('${mobileImages[index % mobileImages.length]}')`;
         } else {
             // Alterna entre duas imagens para PC
