@@ -29,8 +29,11 @@
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
 <style> .navbar-brand { font-family: Arial, sans-serif; /* Fonte sans-serif */ font-size: 4em; /* Tamanho da fonte ajustado */ color: #2d3e50; /* Cor do texto */ text-transform: capitalize; /* Apenas a primeira letra de cada palavra em maiúscula */ } .navbar-brand:hover { color: #17a2b8; /* Cor ao passar o mouse */ } .col-md-3 { display: flex; flex-direction: column; /* Alinhar os textos verticalmente */ align-items: center; } .subtext { font-family: Arial, sans-serif; /* Fonte sans-serif */ color: #2d3e50; /* Cor do texto combinando com a logo */ } .subtext-small { font-size: 1em; /* Tamanho menor para Quiropraxia Osasco */ } .subtext-smaller { font-size: 0.9em; /* Tamanho menor ainda para Dr. Paulo  */ } </style>
+  
+  
   </head>
   <body>
+
   	<div class="top py-1">
   		<div class="container">
   			<div class="row">
@@ -95,7 +98,7 @@
     <!-- END nav -->
     <div class="hero-wrap">
 	    <div class="home-slider owl-carousel">
-	      <div class="slider-item" style="background-image:url(images/logotipo.png);">
+	      <div class="slider-item" style="background-image:url(images/donos-quiroz.jpeg);">
 	      	<div class="overlay"></div>
 	        <div class="container">
 	          <div class="row no-gutters slider-text align-items-center justify-content-end">
@@ -612,6 +615,28 @@
       isVoice: undefined
     });
   });
+
+
+function updateBackgroundImage() {
+    let sliderItems = document.querySelectorAll(".slider-item");
+    let screenWidth = window.innerWidth;
+
+    sliderItems.forEach((item, index) => {
+        if (screenWidth <= 768) {
+            // Alterna entre duas imagens para celular
+            let mobileImages = ["images/donos-quiroz.jpeg", "images/cel1.png"];
+            item.style.backgroundImage = `url('${mobileImages[index % mobileImages.length]}')`;
+        } else {
+            // Alterna entre duas imagens para PC
+            let desktopImages = ["images/logotipo.png", "images/logotipo.png"];
+            item.style.backgroundImage = `url('${desktopImages[index % desktopImages.length]}')`;
+        }
+    });
+}
+
+// Atualiza a imagem ao carregar e ao redimensionar a tela
+window.onload = updateBackgroundImage;
+window.onresize = updateBackgroundImage;
 </script>
   <script src="js/jquery.min.js"></script>
   <script src="js/jquery-migrate-3.0.1.min.js"></script>
